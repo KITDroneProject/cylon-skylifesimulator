@@ -5,10 +5,10 @@ var Adaptor = require("./lib/adaptor"),
 
 module.exports = {
   // Adaptors your module provides, e.g. ["spark"]
-  adaptors: ["SkyLifeSimulator"],
+  adaptors: ["skylifesimulator"],
 
   // Drivers your module provides, e.g. ["led", "button"]
-  drivers: ["SkyLifeSimulator"],
+  drivers: ["skylifesimulator"],
 
   // Modules intended to be used with yours, e.g. ["cylon-gpio"]
   dependencies: [],
